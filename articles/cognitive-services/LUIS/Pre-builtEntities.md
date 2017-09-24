@@ -515,7 +515,9 @@ builtin.datetimeV2.date      |   week of september 30th   |```{ "entity": "septe
 Pre-built entity   |   Example utterance   |   JSON
 ------|------|------|
 builtin.geography.city   |  seattle    |```{ "type": "builtin.geography.city", "entity": "seattle" }```|
-builtin.geography.city   |  paris    |```{ "type": "builtin.geography.city", "entity": "paris" }```|
+builtin.geography.state   |  paris    |```{ "type": "builtin.geography.city", "entity": "paris" }```|
+builtin.geography.state   |  washington    |```{ "type": "builtin.geography.state", "entity": "washington" }```|
+builtin.geography.state   |  texas    |```{ "type": "builtin.geography.state", "entity": "state" }```|
 builtin.geography.country|  australia    |```{ "type": "builtin.geography.country", "entity": "australia" }```|
 builtin.geography.country|  japan    |```{ "type": "builtin.geography.country", "entity": "japan" }```|
 builtin.geography.pointOfInterest   |   amazon river |```{ "type": "builtin.geography.pointOfInterest", "entity": "amazon river" }```|
